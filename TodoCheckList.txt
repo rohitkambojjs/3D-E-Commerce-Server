@@ -1,0 +1,12 @@
+## Create a feature for add product on shop
+
+-Backend
+1. Add a fild in Product Schema "brand" for shop because every shop have diffrent brand, For example: Shoose, Cloths, 3d Object (3D Object cannot add dimanicly)
+2. Install and setup cloudinary in backend
+
+-Frontend
+1. First upload product's picture
+2. Add product detail
+3. Save
+
+## Create a feature for show product on shop
