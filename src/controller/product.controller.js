@@ -83,7 +83,7 @@ export const getOneProduct = async (req, res) => {
 
 export const createProduct = async (req, res) => {
   const userId = req.user._id
-  const body = JSON.parse(req.body.data); // 🔥 parse JSON string back to object
+  const body = JSON.parse(req.body.data);
   console.log(`body`, body);
   const file = req.file;
   console.log(file);
